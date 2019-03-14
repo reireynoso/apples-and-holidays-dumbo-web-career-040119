@@ -94,8 +94,8 @@ def all_supplies_in_holidays(holiday_hash)
           x.capitalize!
         end
         holi = holi.join(" ")
-        puts holi
-        #puts "  #{holi.capitalize!}: #{items.join(", ")}"
+        #puts holi
+        puts "  #{holi.capitalize!}: #{items.join(", ")}"
         
     end
     
