@@ -93,7 +93,7 @@ def all_supplies_in_holidays(holiday_hash)
         holi.each do |x|
           x.capitalize!
         end
-        #holi = holi.join(" ")
+        holi = holi.join(" ")
         puts holi
         #puts "  #{holi.capitalize!}: #{items.join(", ")}"
         
