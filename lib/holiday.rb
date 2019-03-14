@@ -90,7 +90,7 @@ def all_supplies_in_holidays(holiday_hash)
       #holi is a string #items array
        # holi = holi.to_s
         #holi.split("_")
-        #puts "  #{holi.capitalize}: #{items.join(", ")}"
+        puts "  #{holi.capitalize}: #{items.join(", ")}"
         
     end
     
